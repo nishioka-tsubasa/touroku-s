@@ -1350,15 +1350,24 @@ footer {
   }
 }
 
-.customer_policy_link_footer {
-  margin: 0.5em 0 0 auto;
-  display: table;
+.siteFooter .sectionBox > .row > .col-md-6:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.siteFooter .privacy_link_footer,
+.siteFooter .customer_policy_link_footer {
+  margin: 0;
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
-  .customer_policy_link_footer {
-    margin: 0.5em 0 0;
-    display: block;
+  .siteFooter .sectionBox > .row > .col-md-6:last-child {
+    justify-content: flex-start;
+    gap: 0 18px;
   }
 }
 
