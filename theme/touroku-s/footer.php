@@ -53,7 +53,7 @@
                 echo '<div class="'.$footer_widget_area[$footer_widget_area_count]['class'].'">';
                     if ( is_active_sidebar( 'footer-widget-'.$i ) ) dynamic_sidebar( 'footer-widget-'.$i );
                     if ( 2 === $i ) {
-                        echo '<a href="/contact/%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%83%bc%e3%83%8f%e3%83%a9%e3%82%b9%e3%83%a1%e3%83%b3%e3%83%88%e3%81%ab%e5%af%be%e3%81%99%e3%82%8b%e5%9f%ba%e6%9c%ac%e6%96%b9%e9%87%9d/" class="customer_policy_link_footer">カスタマーハラスメントに対する基本方針</a>';
+                        echo '<a href="/contact/customer-harassment-policy/" class="customer_policy_link_footer">カスタマーハラスメントに対する基本方針</a>';
                     }
                 echo '</div>';
                 $i++;
