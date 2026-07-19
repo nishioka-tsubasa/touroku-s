@@ -1390,6 +1390,36 @@ footer {
   }
 }
 
+.customer-policy-page p {
+  line-height: 1.9;
+  margin: 0 0 1.1em;
+}
+
+.customer-policy-page .policy-title {
+  margin-bottom: 1.8em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.customer-policy-page .policy-heading {
+  margin: 1.8em 0 0.6em;
+  font-weight: bold;
+}
+
+.customer-policy-page ul.policy-list {
+  padding: 0 0 0 1.5em;
+  margin: 0 0 1.2em;
+}
+
+.customer-policy-page ul.policy-list li {
+  line-height: 1.9;
+  margin: 0 0 0.25em;
+}
+
+.customer-policy-page .policy-note {
+  margin-bottom: 0.8em;
+}
+
 /*-------------------------------------------*/
 /* 追加CSS 事業所一覧
 /*-------------------------------------------*/
